@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8"> 
+    <head>
+        <style>
+            #graph {
+                width: 100%;
+                height: 100%;
+            }
+            #graph svg {
+                background-color: #CCC;
+            }
+
+
+            .link {
+                stroke-width: 2px;
+                stroke: black;
+            }
+            .node {
+                background-color: darkslategray;
+                stroke: #138;
+                width: 10px;
+                height: 10px;   
+                stroke-width: 1.5px;
+            }
+            .node text {
+                pointer-events: none;
+                font: 10px sans-serif;
+            }
+            .label {
+               display: block; 
+            }
+
+        </style>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.0/d3.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+        
+    </head>
+    <body>
+        <!-- <script src="graph.js"></script> -->
+        <script src="graph-v3.js"></script>
+    </body>
+</html>
